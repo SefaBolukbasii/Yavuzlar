@@ -1,0 +1,710 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 600px;
+  min-height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.logo {
+  display: flex;
+  margin-top: 20px;
+  justify-content: top;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+.giris {
+  display: flex;
+}
+.giris form input {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 24px;
+  padding-left: 10px;
+}
+.giris form button {
+  display: inline;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  height: 35px;
+  align-items: center;
+}
+.kayıtOl {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 35px;
+}
+.indexAtag {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.containerIndex {
+  width: 600px;
+  height: 680px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.indexButon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 25px 10px 10px 10px;
+}
+.logoIndex {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin-bottom: 60px;
+}
+.musterilerContainer {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+  min-height: 65px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.detayMusteri {
+  display: block;
+}
+.detayMusteri p {
+  width: 450px;
+  height: 25px;
+  margin: 0px;
+  margin-bottom: 3px;
+}
+.musterilerContainer p {
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  flex-wrap: nowrap;
+  width: 180px;
+}
+.musteriCon {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 435px;
+  margin-left: 5px;
+}
+.containerMusteri {
+  width: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.goruntuleSil {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.goruntuleSil form {
+  margin-left: 10px;
+}
+.goruntuleSil form button {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 3px;
+}
+.goruntuleSil button {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 3px;
+}
+.secenekler {
+  display: flex;
+  height: 20px;
+  width: 450px;
+  padding-left: 75px;
+  color: #f5f5f5;
+}
+.filtreleme form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.filtreleme form button {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 10px;
+  height: 30px;
+  width: 75px;
+}
+.firmaCon {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-left: 15px;
+}
+.logout {
+  width: 130px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 440px;
+}
+.BakiyeP {
+  color: #f5f5f5;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 80px;
+  margin-top: -25px;
+}
+.yemeklerListesi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.yemek {
+  background-color: #f5f5f5;
+  display: block;
+  width: 500px;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.yemekUst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yemekUst p {
+  width: 400px;
+  padding-left: 10px;
+}
+.yemekUst button {
+  width: 145px;
+  height: 35px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.detay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detay form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.detay form input[type="number"] {
+  font-size: 20px;
+  font-weight: bold;
+  width: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 80px;
+}
+.detay form textarea {
+  width: 350px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.detay form button {
+  width: 130px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.containerYListe {
+  width: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+}
+.SepetTutar {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.yorum {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  width: 550px;
+  min-height: 50px;
+}
+.yorum form {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: column;
+  width: 500px;
+}
+.yorum form input[type="text"] {
+  display: block;
+  width: 250px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  margin-right: 194px;
+  border-radius: 10px;
+}
+.yorum form textarea {
+  display: block;
+  width: 450px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.yorum form button {
+  width: 130px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.ust p {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.alt p {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.alt {
+  width: 450px;
+  background-color: darkgray;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-radius: 12px;
+  min-height: 100px;
+}
+.baslikPuan {
+  background-color: #f5f5f5;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+.yorumKismi {
+  background-color: #f5f5f5;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 10px;
+  border-radius: 12px;
+  min-height: 100px;
+  margin-bottom: 10px;
+}
+.yorumKismi p {
+  padding-left: 15px;
+}
+.butonTek {
+  width: 140px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 10px;
+}
+.sifDegis form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sifDegis form input {
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 14px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+.sifDegis form button {
+  width: 140px;
+  height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.detayCupon {
+  background-color: #f5f5f5;
+  width: 450px;
+  height: 200px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.detayCupon form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.detayCupon form input {
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.detayCupon form label {
+  width: 350px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+  margin-left: 60px;
+}
+.detayCupon form select {
+  width: 170px;
+  height: 24px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.AnaSayfaBtn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 120px;
+  height: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px 2px 2px 2px;
+}
+.detayFirma {
+  background-color: #f5f5f5;
+  width: 450px;
+  height: 200px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.detayFirma form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.detayFirma form input {
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.detayYemekler {
+  width: 400px;
+  background-color: #b3adad;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.detayYemekler p {
+  justify-content: center;
+}
+.detayGuncelle {
+  width: 400px;
+  background-color: #b3adad;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.detayGuncelle form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.detayGuncelle form input {
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.detayGuncelle form textarea {
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.yemekEkleDiv {
+  width: 400px;
+  background-color: #b3adad;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.yemekEkleDiv form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.yemekEkleDiv form input {
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.yemekEkleDiv form textarea {
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.yemekEkleDiv form select {
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.yemekDuzenle {
+  width: 400px;
+  background-color: #b3adad;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+}
+.yemekDuzenle form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.yemekDuzenle form input {
+  width: 150px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.yemekDuzenle form textarea {
+  width: 150px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.Sipicerik {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 420px;
+  border-radius: 12px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.Sipicerik p {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.sipIcerikYemek {
+  background-color: #f5f5f5;
+  width: 400px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.sipGenelBilgiler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 400px;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sipGenelBilgiler p {
+  width: 380px;
+  margin: 5px;
+}
+.sipGenelBilgiler form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+.sipGenelBilgiler form select {
+  height: 35px;
+  padding-bottom: 5px;
+  width: 270px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-right: 3px;
+}
+.sipGenelBilgiler form select option {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.containerRestEkle {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 500px;
+  border-radius: 15px;
+}
+.containerRestEkle form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerRestEkle form input {
+  width: 250px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
+.containerRestEkle form textarea {
+  width: 250px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 7px;
+  margin-bottom: 13px;
+}
